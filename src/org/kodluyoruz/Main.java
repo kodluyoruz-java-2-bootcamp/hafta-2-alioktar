@@ -9,11 +9,10 @@ public class Main
 
     public static void main(String[] args)
     {
-        // testComputer1();
-        // testComputer2();
+         testComputer1();
+         testComputer2();
     }
 
-    /*
     private static void testComputer1()
     {
         Computer computer = new Computer();
@@ -21,37 +20,37 @@ public class Main
         CPU cpu = new CPU();
         cpu.setBrand("AMD");
         cpu.setPower(150);
-        cpu.setPrice(1499.90);
         cpu.setCores(6);
         cpu.setThreads(12);
+        cpu.setPrice(1499.90);
 
         Motherboard motherboard = new Motherboard();
         motherboard.setBrand("MSI");
         motherboard.setPower(100);
-        motherboard.setPrice(1349.90);
-        motherboard.setCpuArchitect("AMD");
         motherboard.setWifiIncluded(true);
         motherboard.setBluetoothIncluded(true);
+        motherboard.setPrice(1349.90);
+        motherboard.setCpuArchitect("AMD");
 
         RAM ram = new RAM();
         ram.setBrand("Adata");
         ram.setPower(50);
-        ram.setPrice(749.0);
         ram.setMemory(16);
         ram.setFrequency(3600);
+        ram.setPrice(749.0);
 
         GPU gpu = new GPU();
         gpu.setBrand("AMD");
         gpu.setPower(200);
-        gpu.setPrice(3499.0);
         gpu.setMemory(8);
         gpu.setBits(192);
+        gpu.setPrice(3499.0);
 
         SSD ssd = new SSD();
         ssd.setBrand("Samsung");
         ssd.setPower(50);
-        ssd.setPrice(599.90);
         ssd.setMemory(512);
+        ssd.setPrice(599.90);
 
         computer.setCpu(cpu);
         computer.setMotherboard(motherboard);
@@ -81,37 +80,37 @@ public class Main
         CPU cpu = new CPU();
         cpu.setBrand("Intel");
         cpu.setPower(160);
-        cpu.setPrice(1699.90);
         cpu.setCores(8);
         cpu.setThreads(12);
+        cpu.setPrice(1699.90);
 
         Motherboard motherboard = new Motherboard();
         motherboard.setBrand("Asus");
         motherboard.setPower(80);
-        motherboard.setPrice(1499.90);
         motherboard.setCpuArchitect("Intel");
         motherboard.setWifiIncluded(false);
         motherboard.setBluetoothIncluded(false);
+        motherboard.setPrice(1499.90);
 
         RAM ram = new RAM();
         ram.setBrand("Corsair");
         ram.setPower(50);
-        ram.setPrice(499.0);
         ram.setMemory(8);
         ram.setFrequency(3200);
+        ram.setPrice(499.0);
 
         GPU gpu = new GPU();
         gpu.setBrand("Nvidia");
         gpu.setPower(190);
-        gpu.setPrice(4499.90);
         gpu.setMemory(8);
         gpu.setBits(256);
+        gpu.setPrice(4499.90);
 
         SSD ssd = new SSD();
         ssd.setBrand("Sandisk");
         ssd.setPower(50);
-        ssd.setPrice(999.90);
         ssd.setMemory(1024);
+        ssd.setPrice(999.90);
 
         computer.setCpu(cpu);
         computer.setMotherboard(motherboard);
@@ -133,6 +132,5 @@ public class Main
             throw new RuntimeException(String.format("Güç tüketimi hesaplama metodunuz yanlış! Beklenen: %d Çıkan: %d", estimatedTotalPower, totalPower));
         }
     }
-    */
 
 }
